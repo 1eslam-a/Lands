@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع المحاصيل الزراعية</title>
+    <link rel="stylesheet" href="es.css">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">🌿 موقع الزراعات</div>
+      <ul class="nav-links">
+        <li><a href="#">الرئيسية</a></li>
+        <li><a href="#">المحاصيل</a></li>
+        <li><a href="#">عنّا</a></li>
+        <li><a href="#">تواصل</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <video autoplay muted loop class="background-video">
+        <source src="0923.mp4" type="video/mp4" />
+        متصفحك لا يدعم الفيديو
+      </video>
+      <div class="overlay"></div>
+      <div class="hero-text">
+        <h1>اكتشف محاصيلنا الزراعية</h1>
+        <p>اضغط على أي صورة للمزيد من التفاصيل</p>
+      </div>
+    </section>
+    
+    <section class="grid-section">
+      <div class="grid-container">
+        </div>
+    </section>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <img id="modalImg" src="" alt="" />
+        <h2 id="modalTitle"></h2>
+        <p id="modalDesc"></p>
+      </div>
+    </div>
+    
+    <script src="es.js"></script>
+  </body>
+</html>
